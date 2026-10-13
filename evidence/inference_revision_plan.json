@@ -1,0 +1,33 @@
+{
+  "recorded_utc": "2026-09-28T20:11:51.978171+00:00",
+  "status": "Additional analyses defined after the initial manuscript; not preregistration",
+  "purpose": "Assess geographic stability, seasonal population-time and dependence on matched health evidence",
+  "rules": [
+    "Retain all eight reporting areas, six years and both annual exposure products.",
+    "Descending average ranks; rank 1 denotes greatest modelled exposure, not clinical risk.",
+    "Compare six-year and annual concentration ranks; descriptive Spearman coefficients without inferential p-values.",
+    "Retain all one-, three- and seven-day 95th-percentile daily-cap contrasts by year.",
+    "Compare same-day asthma ED and admission estimates from Lin 2024 with Agache 2024 Table 2.",
+    "Preserve all Agache PM2.5 lag 0-4 coefficients, including intervals spanning unity; only lag 0 transferred for a matched-source comparison.",
+    "Summarise monthly population-days from the full available calendar using year-matched counts.",
+    "No sum of separate lag estimates, pooled outcomes or clinical composite score."
+  ],
+  "source_selection": [
+    {
+      "doi": "10.1111/all.16041",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/all.16041",
+      "role": "Matched asthma sensitivity; source Table 2 values and source-reported GRADE",
+      "precision": "Three-decimal Table 2 values retained. ED lag 2 lower limit is 1.003 in Table 2 versus 1.004 in narrative; the table is the extraction source."
+    },
+    {
+      "doi": "10.17159/caj/2025/35/2.23815",
+      "url": "https://www.scielo.org.za/scielo.php?lng=en&nrm=iso&pid=S2410-972X2025000200010&script=sci_arttext",
+      "role": "Zimbabwe context only; Harare 2023-2024 measurements do not validate Midlands 2017-2022"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8994423/",
+      "role": "Screened but excluded from exact-window quantitative substitution",
+      "reason": "COPD pooled metrics mix single-day lags or multi-day/distributed-lag windows, combine ED/admission outcomes and select strongest estimates within categories."
+    }
+  ]
+}

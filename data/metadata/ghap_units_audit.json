@@ -1,0 +1,105 @@
+{
+  "verified_gee_multiplier": 1.0,
+  "units": "micrograms/m3",
+  "decision": "Retain native floating-point GEE concentrations without a second 0.1 multiplier",
+  "verification_kind": "Convergent source-format and magnitude audit, not byte-for-byte reproduction of the restricted V1 NetCDF",
+  "evidence": [
+    "GEE V1 annual and daily assets contain floating-point concentrations at 0.1 microgram/m3 precision rather than unscaled integer packing values.",
+    "Open publisher V2 NetCDF uses uint16 with CF scale_factor 0.1 and units micrograms/m3. The publisher Python converter reads netCDF4 variables with automatic scale decoding and writes Float32 GeoTIFF values without another multiplier.",
+    "Raw GEE V1 annual values and its mean daily values agree to rounding at geographically separated points.",
+    "Decoded publisher V2 values at study, Johannesburg, Beijing and Delhi locations have the same concentration scale as unmultiplied GEE V1. V2 is a different release and is not treated as identical ground truth.",
+    "The original publication source-data archive reports concentrations in the same magnitude range, e.g. 2022 January 1 values of 43.25064 for China and 58.015694 for India (Figure 3).",
+    "The unmultiplied V1 GEE daily product was matched at the same date and coordinates to the original paper Figure 2 public monitor measurements; applying 0.1 greatly worsened scale consistency. This check does not establish independent predictive accuracy."
+  ],
+  "conflicting_metadata": "The community catalog and example apply 0.1 to the already floating-point GEE assets. Following that example would reduce all estimates tenfold; this study does not apply that additional factor.",
+  "restriction": "Original V1 Zenodo files require access as of this retrieval. No restricted files were accessed or bypassed.",
+  "version_separation": "V1 GEE is the analysis series. Open V2 is used only in this unit audit; its values and coordinates are not mixed into V1 exposure results.",
+  "source_urls": [
+    "https://gee-community-catalog.org/projects/ghap/",
+    "https://zenodo.org/records/21975240",
+    "https://zenodo.org/api/records/21975240/files/nc2geotiff_codes.zip/content",
+    "https://zenodo.org/api/records/21975240/files/GlobalHighPM2.5-source-data.zip/content",
+    "https://doi.org/10.1038/s41467-023-43862-3"
+  ],
+  "checks": [
+    {
+      "lon": 30.05,
+      "lat": -19.8,
+      "annual_raw": {
+        "b1": 10.800000190734863
+      },
+      "daily_mean_raw": {
+        "b1": 10.786849975585938
+      },
+      "publisher_V2_nearest_decoded_concentration": 8.90000057220459,
+      "publisher_V2_actual_coordinate": [
+        30.054550170898438,
+        -19.803451538085938
+      ],
+      "V1_V2_scale_ratio": 1.213483089480255
+    },
+    {
+      "lon": 28.05,
+      "lat": -26.2,
+      "annual_raw": {
+        "b1": 35.79999923706055
+      },
+      "daily_mean_raw": {
+        "b1": 35.790958404541016
+      },
+      "publisher_V2_nearest_decoded_concentration": 35.400001525878906,
+      "publisher_V2_actual_coordinate": [
+        28.045654296875,
+        -26.204818725585938
+      ],
+      "V1_V2_scale_ratio": 1.0112993698853157
+    },
+    {
+      "lon": 116.4,
+      "lat": 39.9,
+      "annual_raw": {
+        "b1": 61.400001525878906
+      },
+      "daily_mean_raw": {
+        "b1": 61.37013626098633
+      },
+      "publisher_V2_nearest_decoded_concentration": 64.0999984741211,
+      "publisher_V2_actual_coordinate": [
+        116.3970947265625,
+        39.89929962158203
+      ],
+      "V1_V2_scale_ratio": 0.9578783617392401
+    },
+    {
+      "lon": 77.2,
+      "lat": 28.6,
+      "annual_raw": {
+        "b1": 112.4000015258789
+      },
+      "daily_mean_raw": {
+        "b1": 112.29972839355469
+      },
+      "publisher_V2_nearest_decoded_concentration": 119.5999984741211,
+      "publisher_V2_actual_coordinate": [
+        77.19863891601562,
+        28.596885681152344
+      ],
+      "V1_V2_scale_ratio": 0.9397993558519977
+    }
+  ],
+  "publisher_netcdf_md5": "e25432195e4fdcc9fa2732d5c45bcedb",
+  "curator_example_sha256": "f289f09dd6c92e2e5154510b6a8432f746d1364812e50cb87ed75e1eb2e8eb48",
+  "same_day_original_publication_check": {
+    "date": "2020-10-08",
+    "publication_figure": "Wei et al. 2023 Figure 2",
+    "matched_sites": 3559,
+    "source_monitor_rows": 3601,
+    "mean_observed": 19.59849498314131,
+    "mean_raw_GEE": 19.926833723645828,
+    "rmse_raw_GEE": 5.009476946974771,
+    "rmse_GEE_times_0_1": 24.556359876887377,
+    "mean_bias_raw_GEE": 0.328338740504519,
+    "mean_bias_GEE_times_0_1": -17.605811610776726,
+    "purpose": "Source-publication same-date unit consistency only; sites may overlap source training and are not local independent validation"
+  }
+}

@@ -1,0 +1,604 @@
+[
+  {
+    "figure": "Figure_1_study_population",
+    "files": {
+      "png": {
+        "bytes": 918064,
+        "sha256": "7e2a709a2ea4cdacff92aff59b97078a6395a71db91d409cbba2e8cb03b91c93",
+        "pixels": [
+          4251,
+          3614
+        ],
+        "mode": "RGBA",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 2680158,
+        "sha256": "73a7cab45faddb1375c2cbe356bcba414cd8ca2a87ea5b49819c1d557d04c4ad",
+        "pixels": [
+          4251,
+          3614
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 1315403,
+        "sha256": "112dc0aae2bbf8f6d767b70f528b8a635585894ba331a1149a15470a349bf53c",
+        "width_mm": 179.99999999998556,
+        "height_mm": 153.00000000000887
+      },
+      "svg": {
+        "bytes": 3928343,
+        "sha256": "17ee5e0be181030e33e25f16ffe5d6afbcc6a3a38e0599777b1981cf5404ea0d",
+        "width": "510.23622pt",
+        "height": "433.700787pt"
+      }
+    }
+  },
+  {
+    "figure": "Figure_1_workflow",
+    "files": {
+      "png": {
+        "bytes": 881701,
+        "sha256": "fd143d74a60d1e40d897c5605e60fed784656af6f12334ec4ea5d3f95103608a",
+        "pixels": [
+          4251,
+          3850
+        ],
+        "mode": "RGBA",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 1347448,
+        "sha256": "dd7d8e58426e18e4046b16f27f5af1227021fa3937e43b4c6c498efed9c2b4ec",
+        "pixels": [
+          4251,
+          3850
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 63062,
+        "sha256": "295f0b3798ea9c0f200cb3ab83008ef93a38af81d0b1af4cc96f9bd4681a23cf",
+        "width_mm": 179.99999999998556,
+        "height_mm": 163.00000000000418
+      },
+      "svg": {
+        "bytes": 12129,
+        "sha256": "dc5e702ba5b09c3a58364505a56026f888ea612dd1ea3d9c179cc5ed8981d883",
+        "width": "510.23622pt",
+        "height": "462.047244pt"
+      }
+    }
+  },
+  {
+    "figure": "Figure_2_exposure_maps",
+    "files": {
+      "png": {
+        "bytes": 1089866,
+        "sha256": "5432aef5798e7b0302f9791a2bc44c4546681598dba864f2e965d090845ed63d",
+        "pixels": [
+          4251,
+          2811
+        ],
+        "mode": "RGBA",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 2963500,
+        "sha256": "47a822799c9bc45bf80c0f26aaec9ce9b354fab2376b14954bceeaff4f58a819",
+        "pixels": [
+          4251,
+          2811
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 2675294,
+        "sha256": "c9ff1f92fc365aeec9e046d0546f5ade390f8b82cd7d459f258aaa68156fb852",
+        "width_mm": 179.99999999998556,
+        "height_mm": 119.00000000001084
+      },
+      "svg": {
+        "bytes": 8271217,
+        "sha256": "b453292f89d12602d8b30447127b820f131fba4894f60bd91615db0961084f81",
+        "width": "510.23622pt",
+        "height": "337.322835pt"
+      }
+    }
+  },
+  {
+    "figure": "Figure_3_who_product_comparison",
+    "files": {
+      "png": {
+        "bytes": 689159,
+        "sha256": "0d6fc224228a03f5c9122119f3c7f1ca0220320bd9e95f2ebd56f79c85db4256",
+        "pixels": [
+          4251,
+          3519
+        ],
+        "mode": "RGBA",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 989618,
+        "sha256": "16f2659fff455f51c749dc87b0ffa415d5e502ba5bc5b4add4165b816e92a340",
+        "pixels": [
+          4251,
+          3519
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 1701593,
+        "sha256": "171d030eac9425f351e16e4a88dcd881dc0496de4fd9c8602a00cb4919fec780",
+        "width_mm": 179.99999999998556,
+        "height_mm": 148.99999999999667
+      },
+      "svg": {
+        "bytes": 5329965,
+        "sha256": "301f722c5da1ba1786ea63d80fd57c12df97a66aea163ad521bf77efb0ccd53f",
+        "width": "510.23622pt",
+        "height": "422.362205pt"
+      }
+    }
+  },
+  {
+    "figure": "Figure_4_temporal_exposure",
+    "files": {
+      "png": {
+        "bytes": 563576,
+        "sha256": "3335c92075222dd144c40c9fa180528468ceea3e82753a28dec0d76cd64ee313",
+        "pixels": [
+          4251,
+          3496
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 1301942,
+        "sha256": "e0b7b4b176768477937a881f8848b7dc1209f99f02c584befeca996b5a9d909f",
+        "pixels": [
+          4251,
+          3496
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 57695,
+        "sha256": "ed538d6137cc547f142f9aeb514a5a7c87b51737f0fbd46ae1f2c6f0d14ccd81",
+        "width_mm": 179.91666666666666,
+        "height_mm": 147.81388888888887
+      },
+      "svg": {
+        "bytes": 71478,
+        "sha256": "50f243b32dbed58c61164cb95d84be889ac4287dd5ce42f12c7a91269379cee3",
+        "width": "510.24pt",
+        "height": "419.53pt"
+      }
+    }
+  },
+  {
+    "figure": "Figure_5_district_exposure",
+    "files": {
+      "png": {
+        "bytes": 242625,
+        "sha256": "ec11cc83bfeda7f74a62d6fdb5c68067656e101b34b95954ca62512e22a322e6",
+        "pixels": [
+          4251,
+          3094
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 375758,
+        "sha256": "39a49c68a621970af3565109f07b39085c779c4997d211f755501e8de6cdc936",
+        "pixels": [
+          4251,
+          3094
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 42909,
+        "sha256": "8e8e058f213e6cec458cdac7e9f3e080ce7db3931fc22acfae9d370d50b07c97",
+        "width_mm": 179.91666666666666,
+        "height_mm": 130.88055555555556
+      },
+      "svg": {
+        "bytes": 18355,
+        "sha256": "d9588798e820c1ad75ee99c8d66f884512a08ff4b96bf59ceff9e79111f9edfe",
+        "width": "510.24pt",
+        "height": "371.34pt"
+      }
+    }
+  },
+  {
+    "figure": "Figure_6_product_sensitivity",
+    "files": {
+      "png": {
+        "bytes": 384355,
+        "sha256": "39af45ea02abbe2ba3b2bac8bfd962a63a9f7bc1c25b3245e2b1c665f29d0d3b",
+        "pixels": [
+          4251,
+          4110
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 510878,
+        "sha256": "1499984571f7bcb3bbbe04d0204b5be8281553999d8e8255a8625b4e106f4271",
+        "pixels": [
+          4251,
+          4110
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 44997,
+        "sha256": "ddc3301c49f7f0cfec23fba79059c8c9b41e31d8eb4f58a680045cf88448d688",
+        "width_mm": 179.91666666666666,
+        "height_mm": 173.91944444444442
+      },
+      "svg": {
+        "bytes": 27013,
+        "sha256": "05d589cb919865a0bd151b55b7e7cb58565a67ac62d0fed63700ca7c1b7584ec",
+        "width": "510.24pt",
+        "height": "493.23pt"
+      }
+    }
+  },
+  {
+    "figure": "Figure_7_cumulative_exposure",
+    "files": {
+      "png": {
+        "bytes": 885700,
+        "sha256": "9715b8933c31c3f7db7d93abf4c3746af57b10b2586af3ee48cbdf4447027849",
+        "pixels": [
+          4251,
+          3283
+        ],
+        "mode": "RGBA",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 1990886,
+        "sha256": "62d82887ce47ddf5022617b967ec19d716d8fefaacc49f09f98ad64c04566e89",
+        "pixels": [
+          4251,
+          3283
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 1803544,
+        "sha256": "845ecca55e9bffbd93902d8a2ea9c42630f380011462014129f1e4dd8f636d28",
+        "width_mm": 179.99999999998556,
+        "height_mm": 139.00000000000136
+      },
+      "svg": {
+        "bytes": 5472697,
+        "sha256": "0b2c9acd0a283981db8afde9512f644326e32bc5750e05e01c393a7622bd8aa2",
+        "width": "510.23622pt",
+        "height": "394.015748pt"
+      }
+    }
+  },
+  {
+    "figure": "Figure_8_health_profiles",
+    "files": {
+      "png": {
+        "bytes": 265423,
+        "sha256": "2d08561da700a81b035b1e410a7bc1feb20d7688bebbc486f3873fefda406d64",
+        "pixels": [
+          4251,
+          3566
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 510132,
+        "sha256": "c33a42bbb1c5a1935da14606342b65296acb1d4eaf83b34c90c2efe9f0464850",
+        "pixels": [
+          4251,
+          3566
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 37373,
+        "sha256": "e9112fa03be3aaecfa077c2d9149880aa1b0e3c7a3df18a30f88da7921e56dba",
+        "width_mm": 179.91666666666666,
+        "height_mm": 150.98888888888888
+      },
+      "svg": {
+        "bytes": 41598,
+        "sha256": "65c9962289f5198d1c73a4c5311159609a25f95ed9257cd30110288a81565507",
+        "width": "510.24pt",
+        "height": "428.03pt"
+      }
+    }
+  },
+  {
+    "figure": "Figure_S1_all_annual_maps",
+    "files": {
+      "png": {
+        "bytes": 1914648,
+        "sha256": "b924f0b05de22032ca89a56f6a02317f316cd83ee4e6b09a7e29d312f500c6c4",
+        "pixels": [
+          4251,
+          4322
+        ],
+        "mode": "RGBA",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 4433416,
+        "sha256": "1e4beeb9b93b4d119cfc22a44b2dec11c17a32b5c2b543f09ea8adef40e998d2",
+        "pixels": [
+          4251,
+          4322
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 5263888,
+        "sha256": "e28bd8c3621a329fbdb00cc1ac2511031e0693fc4afc37c7dfd1079f81c63224",
+        "width_mm": 179.99999999998556,
+        "height_mm": 182.9999999999947
+      },
+      "svg": {
+        "bytes": 16586974,
+        "sha256": "e8b587718fab26d1cd654a18bcfcea19af0c0dc5993fbbec7e82a525f312b2de",
+        "width": "510.23622pt",
+        "height": "518.740157pt"
+      }
+    }
+  },
+  {
+    "figure": "Figure_S2_supplementary_risk",
+    "files": {
+      "png": {
+        "bytes": 345946,
+        "sha256": "87fc2ced18c85044e17597b769378d9dc3fe6f723b9bc02b8c8b19afbc864fbc",
+        "pixels": [
+          4251,
+          3448
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 569374,
+        "sha256": "40073d33a72dfe8b7c85f2b16ed6b4daefb72f67d698dc25143a6228363798b1",
+        "pixels": [
+          4251,
+          3448
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 61726,
+        "sha256": "2912886cbab7e3edc2bad10cf5f22d96212611ad7059617a81468bde9e1050a1",
+        "width_mm": 179.91666666666666,
+        "height_mm": 145.6972222222222
+      },
+      "svg": {
+        "bytes": 171028,
+        "sha256": "813307ffb749f9e365e4e33ac1ba06979561c76ae86b2531b3ae903558b4263f",
+        "width": "510.24pt",
+        "height": "413.86pt"
+      }
+    }
+  },
+  {
+    "figure": "Figure_S3_published_windows",
+    "files": {
+      "png": {
+        "bytes": 252707,
+        "sha256": "a84588229a265dc0506524369ef3190b1f40ea3b68d2d49ff00ba484b4d5b312",
+        "pixels": [
+          4251,
+          4110
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 491876,
+        "sha256": "5a6853d31c9bd6410a47347f9f69e2206d73582b9ab8afa7a6eec100e2f11c6c",
+        "pixels": [
+          4251,
+          4110
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 33224,
+        "sha256": "0b3cd7c416ac2ad614e3d244f839097a80d860b0a96f518dcc0e240abad099a7",
+        "width_mm": 179.91666666666666,
+        "height_mm": 173.91944444444442
+      },
+      "svg": {
+        "bytes": 28122,
+        "sha256": "58b82322d6e56e934468dc7829511369a969c8012ff4fb4214ae1ab6733e8bd5",
+        "width": "510.24pt",
+        "height": "493.23pt"
+      }
+    }
+  },
+  {
+    "figure": "Figure_S4_rank_stability",
+    "files": {
+      "png": {
+        "bytes": 425907,
+        "sha256": "27dac97e343bbb9b43cc45dbabd173dee0ef3c095a5c06cab254223a3c741ebb",
+        "pixels": [
+          4251,
+          4133
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 1301780,
+        "sha256": "8bc652b0a58c57d9a29c53c208066563c4e324385e324f88c2026ab681271b4c",
+        "pixels": [
+          4251,
+          4133
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 40697,
+        "sha256": "2f16679dfb936f6345879a663c73cd4e501f38d1553794a46c117ead23371696",
+        "width_mm": 179.91666666666666,
+        "height_mm": 174.97777777777776
+      },
+      "svg": {
+        "bytes": 105088,
+        "sha256": "3959cd72a8cfa10fa6aa27ed56cf25bec18fc4206437d07ae2884206a0121bad",
+        "width": "510.24pt",
+        "height": "496.06pt"
+      }
+    }
+  },
+  {
+    "figure": "Figure_S5_exposure_distributions",
+    "files": {
+      "png": {
+        "bytes": 299969,
+        "sha256": "171fdaee7fb68563caa08b2f667f6845375ce64f0e485ca008f62a6c703f0742",
+        "pixels": [
+          4251,
+          4251
+        ],
+        "mode": "RGB",
+        "dpi": [
+          599.9988,
+          599.9988
+        ]
+      },
+      "tif": {
+        "bytes": 409836,
+        "sha256": "42ca22d83215f8bca331331e464e4f88e4033634ee4a0517787ef3366b088c9d",
+        "pixels": [
+          4251,
+          4251
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ]
+      },
+      "pdf": {
+        "bytes": 189298,
+        "sha256": "c0c65e721affb9d1e5d3617ae75dff0c5787c0d8ad8b84bcad0f3b02a6c21cdd",
+        "width_mm": 179.91666666666666,
+        "height_mm": 179.91666666666666
+      },
+      "svg": {
+        "bytes": 1938248,
+        "sha256": "4feb0d763a83eac73e3766eea7b4544e30da82f2fc73c098e4360d8e776e4a9a",
+        "width": "510.24pt",
+        "height": "510.24pt"
+      }
+    }
+  }
+]

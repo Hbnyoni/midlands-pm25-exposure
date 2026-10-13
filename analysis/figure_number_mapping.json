@@ -1,0 +1,16 @@
+[
+  {"figure":"1","source_stem":"Figure_1_workflow","upload_stem":"Figure_1"},
+  {"figure":"2","source_stem":"Figure_1_study_population","upload_stem":"Figure_2"},
+  {"figure":"3","source_stem":"Figure_2_exposure_maps","upload_stem":"Figure_3"},
+  {"figure":"4","source_stem":"Figure_3_who_product_comparison","upload_stem":"Figure_4"},
+  {"figure":"5","source_stem":"Figure_4_temporal_exposure","upload_stem":"Figure_5"},
+  {"figure":"6","source_stem":"Figure_5_district_exposure","upload_stem":"Figure_6"},
+  {"figure":"7","source_stem":"Figure_6_product_sensitivity","upload_stem":"Figure_7"},
+  {"figure":"8","source_stem":"Figure_7_cumulative_exposure","upload_stem":"Figure_8"},
+  {"figure":"9","source_stem":"Figure_8_health_profiles","upload_stem":"Figure_9"},
+  {"figure":"S1","source_stem":"Figure_S1_all_annual_maps","upload_stem":"Figure_S1"},
+  {"figure":"S2","source_stem":"Figure_S2_supplementary_risk","upload_stem":"Figure_S2"},
+  {"figure":"S3","source_stem":"Figure_S3_published_windows","upload_stem":"Figure_S3"},
+  {"figure":"S4","source_stem":"Figure_S4_rank_stability","upload_stem":"Figure_S4"},
+  {"figure":"S5","source_stem":"Figure_S5_exposure_distributions","upload_stem":"Figure_S5"}
+]

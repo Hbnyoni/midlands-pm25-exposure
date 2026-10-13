@@ -1,0 +1,53 @@
+{
+  "calendar_start": "2017-01-01",
+  "calendar_end": "2022-12-31",
+  "calendar_days": 2191,
+  "available_daily_grids": 2187,
+  "missing_daily_dates": [
+    "2018-03-06",
+    "2018-06-05",
+    "2019-01-20",
+    "2020-03-06"
+  ],
+  "source_grid_crs": "EPSG:4326",
+  "source_grid_transform": [
+    0.01,
+    0.0,
+    27.965000000000003,
+    0.0,
+    -0.01,
+    -17.085000000000008
+  ],
+  "native_grid_shape": [
+    399,
+    294
+  ],
+  "native_cells_intersecting_province": 43343,
+  "study_area_km2": 49362.65967192927,
+  "minimum_daily_pm25": 2.5,
+  "maximum_daily_pm25": 125.30000305175781,
+  "reporting_areas": [
+    "Chirumhanzu",
+    "Gokwe North",
+    "Gokwe South",
+    "Gweru",
+    "Kwekwe",
+    "Mberengwa",
+    "Shurugwi",
+    "Zvishavane",
+    "Midlands Province"
+  ],
+  "primary_scope": "Population exposure, cumulative exposure and evidence-based health-risk profiles",
+  "mortality_scope": "Conditional endpoint-specific main profiles and detailed supplementary scenarios",
+  "local_health_data_used": false,
+  "synthetic_exposure_used": false,
+  "missing_policy": "No imputation; source dates retained; missing days excluded from valid denominators and retained in lag calendar",
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "pandas": "2.2.2",
+  "rasterio": "1.4.3",
+  "shapely": "2.0.6",
+  "primary_annual_estimate": "Mean of available daily grids after 90% annual and 75% quarterly completeness checks",
+  "uncertainty_note": "Product and allocation sensitivities; published risk intervals exclude local exposure and population model uncertainty",
+  "health_extension": "results/health_profile_results.json"
+}

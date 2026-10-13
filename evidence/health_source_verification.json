@@ -1,0 +1,11 @@
+{
+  "verification_date": "2026-09-24",
+  "method": "Targeted checks of primary journal full text, primary sponsor-hosted article and indexed original abstracts; no systematic review claimed",
+  "sources": [
+    {"doi":"10.1016/j.envpol.2024.124585","url":"https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Research/Environmental/PM25-and-its-components-and-respiratory-disease-healthcare-encounters.pdf","location":"Table 1, printed page 3; methods page 3","checked":"All 12 selected total-mass asthma and COPD outcome-window entries, original IQRs and confidence limits. Case-crossover ratios are interpreted as rate ratios in the source. Table values verified from primary PDF text; no claim of a successful local PDF download."},
+    {"doi":"10.1136/bmj.l6572","url":"https://pubmed.ncbi.nlm.nih.gov/31888884/","location":"Original abstract and full-text indexed results","checked":"Same-day cardiovascular, IHD and ischaemic-stroke estimates and confidence limits; haemorrhagic-stroke null association retained in selection notes."},
+    {"doi":"10.1371/journal.pmed.1003010","url":"https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003010","location":"Abstract, main results and co-pollutant sensitivity","checked":"Three-day mean adult pneumonia estimate 0.31% (0.15–0.46) per 10 micrograms/m3. NO2-adjusted sensitivity 0.10% (-0.05–0.25)."},
+    {"doi":"10.3389/ijph.2024.1607683","url":"https://www.ssph-journal.org/journals/international-journal-of-public-health/articles/10.3389/ijph.2024.1607683/pdf","location":"Table 1, PM2.5 mortality rows","checked":"Eight long-term endpoint functions, 95% confidence and 80% prediction intervals. Prediction intervals are not 95%."},
+    {"doi":"10.1136/bmj-2023-076322","url":"https://darrensun87.github.io/my_website/lib/bmj-2023-076322.full.pdf","location":"Original article methods and abstract","checked":"Headline effects restricted to exposure below 15 micrograms/m3; excluded from quantitative above-15 cap scenarios."}
+  ]
+}

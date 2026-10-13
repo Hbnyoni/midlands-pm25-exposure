@@ -1,0 +1,120 @@
+{
+  "design": "Historical ecological exposure assessment and evidence-based health-risk profiling",
+  "survey_data_used": false,
+  "working_geography": "Midlands Province, Zimbabwe; public administrative subunits compared within the province",
+  "boundary_names": [
+    "Chirumhanzu",
+    "Gokwe North",
+    "Gokwe South",
+    "Gweru",
+    "Kwekwe",
+    "Mberengwa",
+    "Shurugwi",
+    "Zvishavane"
+  ],
+  "geography_status": "Province expansion adopted following user instruction to continue the recommended redesign on 2026-09-23",
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "main_map_year": 2022,
+  "pollutant": "PM2.5",
+  "concentration_units": "micrograms per cubic metre",
+  "ghap_daily_collection": "projects/sat-io/open-datasets/GHAP/GHAP_D1K_PM25",
+  "ghap_annual_collection": "projects/sat-io/open-datasets/GHAP/GHAP_Y1K_PM25",
+  "ghap_scale_factor": 1.0,
+  "worldpop_collection": "projects/sat-io/open-datasets/WORLDPOP/pop",
+  "worldpop_version_policy": "Inspect asset metadata and verify release against publisher before analysis; do not silently mix releases",
+  "annual_cutpoints": [
+    5,
+    10,
+    15,
+    25,
+    35
+  ],
+  "daily_cutpoints": [
+    15,
+    25,
+    37.5,
+    50,
+    75
+  ],
+  "who_daily_percentile": 99,
+  "minimum_daily_coverage_fraction": 0.9,
+  "minimum_quarterly_coverage_fraction": 0.75,
+  "annual_reference_concentration": 5,
+  "acute_policy_scenario": "Reduce each daily concentration above 15 to 15 before calculating the lag 0-1 day mean",
+  "primary_transferred_endpoint": "Outcome-specific conditional morbidity and mortality contrasts",
+  "secondary_transferred_endpoint": "Product and averaging-window sensitivities",
+  "acute_lag_days": [
+    0,
+    1
+  ],
+  "acute_lag_weights": [
+    0.5,
+    0.5
+  ],
+  "locally_fitted_dlnm": false,
+  "report_absolute_health_event_counts": false,
+  "uncertainty": [
+    "Published coefficient 95% confidence limits",
+    "Long-term 80% prediction limits as transferability scenarios",
+    "Exposure-product sensitivity",
+    "Population-product sensitivity where feasible",
+    "Boundary and raster allocation sensitivity"
+  ],
+  "map_furniture": "Legends, colour scales, north arrows and scale bars outside map panels",
+  "analysis_plan_date": "2026-09-23",
+  "primary_results": [
+    "Annual and daily WHO exposure comparisons",
+    "Population and population-day distributions",
+    "Administrative subunit comparison",
+    "Exposure-product sensitivity",
+    "Cumulative and persistent exposure profiles",
+    "Published outcome-specific health contrasts with matched exposure windows"
+  ],
+  "mortality_analysis_role": "Long-term outcome-specific contrasts in main profiles; detailed annual and acute mortality scenarios supplementary",
+  "figure_text": "Lowercase panel letters only; descriptive titles and source notes in manuscript captions",
+  "district_reporting_groups": {
+    "Chirumhanzu": [
+      "Chirumhanzu"
+    ],
+    "Gokwe North": [
+      "Gokwe North"
+    ],
+    "Gokwe South": [
+      "Gokwe South",
+      "Gokwe South Urban"
+    ],
+    "Gweru": [
+      "Gweru",
+      "Gweru Urban"
+    ],
+    "Kwekwe": [
+      "Kwekwe",
+      "Kwekwe Urban",
+      "Redcliff"
+    ],
+    "Mberengwa": [
+      "Mberengwa"
+    ],
+    "Shurugwi": [
+      "Shurugwi",
+      "Shurugwi Town"
+    ],
+    "Zvishavane": [
+      "Zvishavane",
+      "Zvishavane Urban"
+    ]
+  },
+  "health_profile_plan": "evidence/health_profile_analysis_plan.json",
+  "acute_profile_window_lengths": [
+    1,
+    3,
+    7
+  ]
+}

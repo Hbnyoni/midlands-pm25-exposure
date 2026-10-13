@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-09-30T12:05:13.977709+00:00",
+  "status": "Additional descriptive analysis after initial results; not preregistered",
+  "question": "How much within-area spatial exposure variation is hidden by population-weighted means?",
+  "population": "Year-matched, fractionally allocated WorldPop counts on each native exposure grid",
+  "rules": [
+    "Retain both annual products, all six years, province and all eight reporting areas",
+    "F(c) = sum(P_i * I(C_i <= c)) / sum(P_i)",
+    "Q(p) is the smallest native concentration for which F(c) >= p",
+    "Report spatial percentiles 10, 25, 50, 75 and 90 without kernel smoothing",
+    "Reconcile means, counts and WHO-threshold shares against the existing analysis",
+    "Spatial percentile ranges are descriptive exposure spread, never confidence intervals",
+    "No inferential tests on model cells and no new health coefficients"
+  ]
+}

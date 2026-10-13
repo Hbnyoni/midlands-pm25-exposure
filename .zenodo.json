@@ -1,0 +1,19 @@
+{
+  "title": "Midlands PM2.5 population exposure and health risk profiles: code and derived data",
+  "upload_type": "software",
+  "description": "Python and R code, source manifests, derived tables, verification records and figures for a retrospective assessment of modelled PM2.5 population exposure and conditional health risk profiles across Midlands Province, Zimbabwe, 2017 to 2022. Inputs are public GHAP and ACAG PM2.5, WorldPop population and geoBoundaries boundaries; large raster inputs are reacquired with the supplied code and verified by SHA-256 hashes.",
+  "license": "MIT",
+  "creators": [
+    {"name": "Nyoni, Handsome Bongani", "affiliation": "Midlands State University; University of Cape Town"},
+    {"name": "Moyo, Perez Livias", "affiliation": "National University of Science and Technology, Zimbabwe"},
+    {"name": "Chinwadzimba, Zororo", "affiliation": "Centre for Sexual Health and HIV AIDS Research (CeSHHAR)"},
+    {"name": "Sibanda, Rutendo", "affiliation": "Centre for Sexual Health and HIV AIDS Research (CeSHHAR)"},
+    {"name": "Tigere, Daniel", "affiliation": "Shurugwi District Medical Office"}
+  ],
+  "keywords": ["PM2.5", "population exposure", "WHO air quality guidelines", "remote sensing", "environmental health", "Zimbabwe"],
+  "related_identifiers": [
+    {"identifier": "10.1038/s41467-023-43862-3", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1021/acsestair.3c00054", "relation": "references", "scheme": "doi"}
+  ],
+  "access_right": "open"
+}

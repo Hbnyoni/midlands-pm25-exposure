@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+# Large reacquirable inputs and caches
+data/public/*.tif
+data/public/osm_tiles_z7/
+results/rasters/
+qa/*.npz
+qa/overlay_cache/
+*.new.*

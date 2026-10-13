@@ -1,0 +1,42 @@
+[
+  {
+    "figure": "Figure_1_study_population",
+    "width_mm": 180,
+    "height_mm": 153.0,
+    "minimum_font_pt": 9,
+    "dpi": 600,
+    "engine": "Python Matplotlib native raster cartography"
+  },
+  {
+    "figure": "Figure_2_exposure_maps",
+    "width_mm": 180,
+    "height_mm": 127.00000000000001,
+    "minimum_font_pt": 9,
+    "dpi": 600,
+    "engine": "Python Matplotlib native raster cartography"
+  },
+  {
+    "figure": "Figure_3_who_product_comparison",
+    "width_mm": 180,
+    "height_mm": 157.0,
+    "minimum_font_pt": 9,
+    "dpi": 600,
+    "engine": "Python Matplotlib native raster cartography"
+  },
+  {
+    "figure": "Figure_7_cumulative_exposure",
+    "width_mm": 180,
+    "height_mm": 147.0,
+    "minimum_font_pt": 9,
+    "dpi": 600,
+    "engine": "Python Matplotlib native raster cartography"
+  },
+  {
+    "figure": "Figure_S1_all_annual_maps",
+    "width_mm": 180,
+    "height_mm": 191.0,
+    "minimum_font_pt": 9,
+    "dpi": 600,
+    "engine": "Python Matplotlib native raster cartography"
+  }
+]

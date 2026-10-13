@@ -1,0 +1,5 @@
+id,pollutant,exposure_window,outcome,rr_per_10,ci95_lower,ci95_upper,pi80_lower,pi80_upper,source_doi,interpretation
+orellano2024_respiratory,PM2.5,long_term,Respiratory mortality,1.136,1.079,1.197,0.990,1.305,10.3389/ijph.2024.1607683,Transferred log-linear scenario; not a local fitted association or individual probability
+orellano2024_allcause,PM2.5,long_term,All-cause mortality,1.095,1.064,1.127,0.966,1.241,10.3389/ijph.2024.1607683,Transferred log-linear scenario; not a local fitted association or individual probability
+liu2019_respiratory,PM2.5,lag_0_1_day_mean,Respiratory mortality,1.0074,1.0053,1.0095,,,10.1056/NEJMoa1817364,Published same-day and previous-day moving average; no local lag curve fitted
+liu2019_allcause,PM2.5,lag_0_1_day_mean,All-cause mortality,1.0068,1.0059,1.0077,,,10.1056/NEJMoa1817364,Published same-day and previous-day moving average; no local lag curve fitted

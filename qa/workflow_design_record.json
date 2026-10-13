@@ -1,0 +1,12 @@
+{
+  "width_mm": 180,
+  "height_mm": 104,
+  "raster_dpi": 600,
+  "source": "Implemented methods and source manifests",
+  "main_figure": 1,
+  "embedded_title": false,
+  "embedded_caption": false,
+  "layout": "four stage left to right flow",
+  "external_health_evidence_is_separate_input": true,
+  "no_fitted_local_health_effects_or_new_statistical_results": true
+}

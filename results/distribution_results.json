@@ -1,0 +1,42 @@
+{
+  "area_product_years": 108,
+  "quantile_definition": "Inverse population-weighted empirical CDF",
+  "province_2022": [
+    {
+      "year": 2022,
+      "product": "GHAP",
+      "area": "Midlands Province",
+      "population": 1902144.3922608753,
+      "mean_pm25": 10.106765943646986,
+      "p10": 8.787397408158812,
+      "p25": 9.347123447836262,
+      "p50": 9.976712479003488,
+      "p75": 10.4695892177216,
+      "p90": 11.87369884595479,
+      "population_percent_above_5": 100.0,
+      "population_percent_above_10": 48.68847402966347,
+      "population_percent_above_15": 0.0,
+      "population_percent_above_25": 0.0,
+      "population_percent_above_35": 0.0,
+      "p90_minus_p10": 3.086301437795978
+    },
+    {
+      "year": 2022,
+      "product": "ACAG",
+      "area": "Midlands Province",
+      "population": 1902144.3922608753,
+      "mean_pm25": 12.08393709571863,
+      "p10": 9.920777320861816,
+      "p25": 11.031991004943848,
+      "p50": 12.339533805847168,
+      "p75": 13.396320343017578,
+      "p90": 13.714098930358887,
+      "population_percent_above_5": 100.0,
+      "population_percent_above_10": 89.25093733234739,
+      "population_percent_above_15": 0.02548067877472792,
+      "population_percent_above_25": 0.0,
+      "population_percent_above_35": 0.0,
+      "p90_minus_p10": 3.7933216094970703
+    }
+  ]
+}

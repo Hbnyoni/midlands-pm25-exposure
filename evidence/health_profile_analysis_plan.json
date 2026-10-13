@@ -1,0 +1,32 @@
+{
+  "recorded_date": "2026-09-24",
+  "reason": "User requested health-risk profiling as a core analysis, including published health endpoints and lag windows.",
+  "selection_type": "Targeted primary-source evidence selection, not a systematic review or complete literature census",
+  "selection_rule": "Total ambient PM2.5, exact reported endpoint, exposure increment and averaging window, retrievable confidence limits; long-term meta-analysis plus multi-city morbidity studies.",
+  "acute_windows": "Lin 2024 same-day, current plus previous two days, current plus previous six days; Tian cardiovascular same-day; Tian pneumonia current plus previous two days. All Lin windows 1, 3 and 7 selected together before additional spatial calculations, not according to local significance or maximum effect.",
+  "reference_scenario": "Cap each daily cell concentration at 15 before calculating complete moving-average reductions. Annual or six-year mean cell concentrations capped at 5. References are WHO comparison levels, not biological thresholds.",
+  "cumulative_exposure": "Observed-day positive excess concentration above 15 summed across 2017-2022 in micrograms per cubic metre days. Fixed 2022 population for spatial intensity comparisons; year-matched population for historical population-days. Missing days break runs and invalidate every window containing them.",
+  "chronic_profile": "Six-year mean of eligible annual concentrations with fixed 2022 population on each product native grid. Representative exposure contrast evaluated with each endpoint function; not average person-level risk or disease probability.",
+  "classification": "WHO concentration intervals, number of years above annual interim target 4 (10), continuous cumulative excess and descriptive district ranks. No arbitrary clinically labelled composite risk score.",
+  "excluded_or_context_only": [
+    {
+      "source": "10.1136/bmj-2023-076322",
+      "reason": "Sun et al. 2024 headline coefficients are restricted to PM2.5 below 15; not transferred to daily excess above 15. Supports context that guideline level is not a no-effect boundary."
+    },
+    {
+      "source": "10.1016/j.envpol.2024.124585",
+      "reason": "POC, SOC and source-specific coefficients excluded because GHAP estimates total ambient PM2.5 mass."
+    },
+    {
+      "source": "10.1136/bmj.l6572",
+      "reason": "Haemorrhagic stroke estimate was -0.02% (95% CI -0.23 to 0.19) per 10 and did not support a positive association. No general claim that every stroke subtype increases."
+    }
+  ],
+  "interpretation_limits": [
+    "No local health outcomes, baseline rates, individual risks or attributable event counts",
+    "All-age residential weights locate exposure; they do not make adult or disease-specific coefficients applicable to all residents",
+    "Do not add overlapping endpoints or multiply daily ratios into cumulative disease risk",
+    "Separate moving-average fits do not identify independent day-specific lag contributions",
+    "Coefficient intervals exclude environmental model and population uncertainty; product sensitivity is separate"
+  ]
+}

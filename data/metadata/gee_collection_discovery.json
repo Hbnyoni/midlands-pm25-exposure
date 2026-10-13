@@ -1,0 +1,379 @@
+{
+  "sources": {
+    "daily": {
+      "first_image": {
+        "type": "Image",
+        "bands": [
+          {
+            "id": "b1",
+            "data_type": {
+              "type": "PixelType",
+              "precision": "float"
+            },
+            "dimensions": [
+              36000,
+              18000
+            ],
+            "crs": "EPSG:4326",
+            "crs_transform": [
+              0.01,
+              0,
+              -180.005,
+              0,
+              -0.01,
+              90.005
+            ]
+          }
+        ],
+        "version": 1717870848453321,
+        "id": "projects/sat-io/open-datasets/GHAP/GHAP_D1K_PM25/GHAP_PM25_D1K_20170101_V1",
+        "properties": {
+          "system:time_start": 1483228800000,
+          "num_bands": 1,
+          "id_no": "GHAP_PM25_D1K_20170101_V1",
+          "ysize": 18000,
+          "system:footprint": {
+            "type": "LinearRing",
+            "coordinates": [
+              [
+                -180,
+                -90
+              ],
+              [
+                180,
+                -90
+              ],
+              [
+                180,
+                90
+              ],
+              [
+                -180,
+                90
+              ],
+              [
+                -180,
+                -90
+              ]
+            ]
+          },
+          "system:time_end": 1483228800000,
+          "xsize": 36000,
+          "system:asset_size": 241598241,
+          "system:index": "GHAP_PM25_D1K_20170101_V1"
+        }
+      },
+      "projection": {
+        "type": "Projection",
+        "crs": "EPSG:4326",
+        "transform": [
+          0.01,
+          0,
+          -180.005,
+          0,
+          -0.01,
+          90.005
+        ]
+      }
+    },
+    "annual": {
+      "first_image": {
+        "type": "Image",
+        "bands": [
+          {
+            "id": "b1",
+            "data_type": {
+              "type": "PixelType",
+              "precision": "float"
+            },
+            "dimensions": [
+              36000,
+              18000
+            ],
+            "crs": "EPSG:4326",
+            "crs_transform": [
+              0.01,
+              0,
+              -180.005,
+              0,
+              -0.01,
+              90.005
+            ]
+          }
+        ],
+        "version": 1717881652960806,
+        "id": "projects/sat-io/open-datasets/GHAP/GHAP_Y1K_PM25/GHAP_PM25_Y1K_2017_V1",
+        "properties": {
+          "system:time_start": 1483228800000,
+          "num_bands": 1,
+          "id_no": "GHAP_PM25_Y1K_2017_V1",
+          "ysize": 18000,
+          "system:footprint": {
+            "type": "LinearRing",
+            "coordinates": [
+              [
+                -180,
+                -90
+              ],
+              [
+                180,
+                -90
+              ],
+              [
+                180,
+                90
+              ],
+              [
+                -180,
+                90
+              ],
+              [
+                -180,
+                -90
+              ]
+            ]
+          },
+          "system:time_end": 1514678400000,
+          "xsize": 36000,
+          "system:asset_size": 171693539,
+          "system:index": "GHAP_PM25_Y1K_2017_V1"
+        }
+      },
+      "projection": {
+        "type": "Projection",
+        "crs": "EPSG:4326",
+        "transform": [
+          0.01,
+          0,
+          -180.005,
+          0,
+          -0.01,
+          90.005
+        ]
+      }
+    },
+    "population": {
+      "first_image": {
+        "type": "Image",
+        "bands": [
+          {
+            "id": "population",
+            "data_type": {
+              "type": "PixelType",
+              "precision": "float"
+            },
+            "dimensions": [
+              9398,
+              8176
+            ],
+            "crs": "EPSG:4326",
+            "crs_transform": [
+              0.00083333333,
+              0,
+              25.236665845719997,
+              0,
+              -0.00083333333,
+              -15.609166268230016
+            ]
+          }
+        ],
+        "version": 1755745347683216,
+        "id": "projects/sat-io/open-datasets/WORLDPOP/pop/ZWE_POP_2015_CN_100M_R2025A_V1",
+        "properties": {
+          "country": "ZWE",
+          "year": "2015",
+          "release": "R2025A",
+          "system:time_end": 1451520000000,
+          "release_year": "2025",
+          "source": "WorldPop",
+          "type": "CONSTRAINED",
+          "resolution": "100m",
+          "temporal_resolution": "Annual",
+          "version": "v1",
+          "system:time_start": 1420070400000,
+          "country_code": "ZWE",
+          "system:footprint": {
+            "type": "LinearRing",
+            "coordinates": [
+              [
+                32.08906166133707,
+                -22.422917697112197
+              ],
+              [
+                33.068818912458156,
+                -22.422916325336374
+              ],
+              [
+                33.06878259095695,
+                -15.608747188764623
+              ],
+              [
+                32.33377520421917,
+                -15.608341854802957
+              ],
+              [
+                31.59963454705266,
+                -15.608748181032034
+              ],
+              [
+                30.865493954215065,
+                -15.608341844254596
+              ],
+              [
+                29.88663982299474,
+                -15.608341826454174
+              ],
+              [
+                28.907785658497573,
+                -15.608341857398278
+              ],
+              [
+                28.173645030762238,
+                -15.608748132554101
+              ],
+              [
+                27.439504349434447,
+                -15.608341867308749
+              ],
+              [
+                26.460650240839186,
+                -15.608341877016647
+              ],
+              [
+                25.236215774049832,
+                -15.607661823253988
+              ],
+              [
+                25.236179413564457,
+                -22.422916338183537
+              ],
+              [
+                26.70536374155872,
+                -22.422917679724883
+              ],
+              [
+                28.173645030762238,
+                -22.422917676562182
+              ],
+              [
+                29.641926210090332,
+                -22.422917710354138
+              ],
+              [
+                31.110207525179707,
+                -22.422917680966794
+              ],
+              [
+                32.08906166133707,
+                -22.422917697112197
+              ]
+            ]
+          },
+          "publication_date": "ongoing",
+          "collection_description": "WorldPop population distribution data",
+          "created_date": "2025-08-20",
+          "system:asset_size": 75045466,
+          "dataset": "WORLDPOP",
+          "spatial_resolution": "100m",
+          "system:index": "ZWE_POP_2015_CN_100M_R2025A_V1"
+        }
+      },
+      "projection": {
+        "type": "Projection",
+        "crs": "EPSG:4326",
+        "transform": [
+          0.00083333333,
+          0,
+          25.236665845719997,
+          0,
+          -0.00083333333,
+          -15.609166268230016
+        ]
+      }
+    },
+    "comparator": {
+      "first_image": {
+        "type": "Image",
+        "bands": [
+          {
+            "id": "b1",
+            "data_type": {
+              "type": "PixelType",
+              "precision": "float"
+            },
+            "dimensions": [
+              36000,
+              13000
+            ],
+            "crs": "EPSG:4326",
+            "crs_transform": [
+              0.009999999728725104,
+              0,
+              -179.99999511705187,
+              0,
+              -0.010000000129122763,
+              70.00000274664659
+            ]
+          }
+        ],
+        "version": 1718818081344497,
+        "id": "projects/sat-io/open-datasets/GLOBAL-SATELLITE-PM25/ANNUAL/V6GL02-a_CNNPM25_Global_199801-199812",
+        "properties": {
+          "system:time_start": 883612800000,
+          "num_bands": 1,
+          "id_no": "V6GL02-a_CNNPM25_Global_199801-199812",
+          "ysize": 13000,
+          "system:footprint": {
+            "type": "LinearRing",
+            "coordinates": [
+              [
+                -180,
+                -90
+              ],
+              [
+                180,
+                -90
+              ],
+              [
+                180,
+                90
+              ],
+              [
+                -180,
+                90
+              ],
+              [
+                -180,
+                -90
+              ]
+            ]
+          },
+          "system:time_end": 915062400000,
+          "xsize": 36000,
+          "system:asset_size": 1122939145,
+          "system:index": "V6GL02-a_CNNPM25_Global_199801-199812"
+        }
+      },
+      "projection": {
+        "type": "Projection",
+        "crs": "EPSG:4326",
+        "transform": [
+          0.009999999728725104,
+          0,
+          -179.99999511705187,
+          0,
+          -0.010000000129122763,
+          70.00000274664659
+        ]
+      }
+    }
+  },
+  "extent": [
+    27.972499205621183,
+    -21.06842647768618,
+    30.895543744154473,
+    -17.092070181688236
+  ],
+  "retrieved_utc": "2026-09-23T11:38:07.885819+00:00",
+  "survey_inputs": false
+}

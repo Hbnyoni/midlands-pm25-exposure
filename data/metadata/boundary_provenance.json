@@ -1,0 +1,250 @@
+{
+  "sources": [
+    {
+      "level": "ADM1",
+      "source_url": "https://raw.githubusercontent.com/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/ZWE/ADM1/geoBoundaries-ZWE-ADM1.geojson",
+      "file": "data\\public\\zimbabwe_adm1.geojson",
+      "sha256": "4a84368bb234ab67e4285c7f4f5d2e460332629b843ac480fa380f49d9753f11",
+      "bytes": 7243657,
+      "represented_year": 2020,
+      "source": "ZIMSTAT/OCHA via geoBoundaries gbOpen",
+      "licence": "CC BY 3.0 IGO",
+      "retrieved_utc": "2026-09-23T10:05:49.193069+00:00"
+    },
+    {
+      "level": "ADM2",
+      "source_url": "https://raw.githubusercontent.com/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/ZWE/ADM2/geoBoundaries-ZWE-ADM2.geojson",
+      "file": "data\\public\\zimbabwe_adm2.geojson",
+      "sha256": "074a3632634b9448bb4043580fe7199e0b2f64ec68bd2f98932a2c68b3795b88",
+      "bytes": 17379177,
+      "represented_year": 2020,
+      "source": "ZIMSTAT/OCHA via geoBoundaries gbOpen",
+      "licence": "CC BY 3.0 IGO",
+      "retrieved_utc": "2026-09-23T10:05:50.640326+00:00"
+    }
+  ],
+  "province": "Midlands",
+  "district_selection": "More than half of source ADM2 equal-area polygon lies inside Midlands; selected polygons clipped to province",
+  "selected_names": [
+    "Chirumhanzu",
+    "Gokwe North",
+    "Gokwe South",
+    "Gweru",
+    "Kwekwe",
+    "Mberengwa",
+    "Shurugwi",
+    "Zvishavane"
+  ],
+  "source_adm2_names": [
+    "Chirumhanzu",
+    "Gokwe North",
+    "Gokwe South",
+    "Gokwe South Urban",
+    "Gweru",
+    "Gweru Urban",
+    "Kwekwe",
+    "Kwekwe Urban",
+    "Mberengwa",
+    "Redcliff",
+    "Shurugwi",
+    "Shurugwi Town",
+    "Zvishavane",
+    "Zvishavane Urban"
+  ],
+  "district_reporting_groups": {
+    "Chirumhanzu": [
+      "Chirumhanzu"
+    ],
+    "Gokwe North": [
+      "Gokwe North"
+    ],
+    "Gokwe South": [
+      "Gokwe South",
+      "Gokwe South Urban"
+    ],
+    "Gweru": [
+      "Gweru",
+      "Gweru Urban"
+    ],
+    "Kwekwe": [
+      "Kwekwe",
+      "Kwekwe Urban",
+      "Redcliff"
+    ],
+    "Mberengwa": [
+      "Mberengwa"
+    ],
+    "Shurugwi": [
+      "Shurugwi",
+      "Shurugwi Town"
+    ],
+    "Zvishavane": [
+      "Zvishavane",
+      "Zvishavane Urban"
+    ]
+  },
+  "grouping_note": "Eight district reporting areas combine rural and associated municipal source units; these analytical merges are explicitly distinguished from the 14 unmodified source ADM2 units",
+  "all_intersections": [
+    {
+      "name": "Binga",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Bubi",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Chikomba",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Chirumhanzu",
+      "fraction_of_adm2_in_province": 1.0000000000000013,
+      "overlap_km2": 4749.309579246564
+    },
+    {
+      "name": "Chivi",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Gokwe North",
+      "fraction_of_adm2_in_province": 1.0000000000000027,
+      "overlap_km2": 7268.093592243543
+    },
+    {
+      "name": "Gokwe South",
+      "fraction_of_adm2_in_province": 0.9999999999999938,
+      "overlap_km2": 11124.024593842048
+    },
+    {
+      "name": "Gokwe South Urban",
+      "fraction_of_adm2_in_province": 0.9999999999999998,
+      "overlap_km2": 18.959175521371485
+    },
+    {
+      "name": "Gutu",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Gwanda",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Gweru",
+      "fraction_of_adm2_in_province": 1.0000000000000029,
+      "overlap_km2": 5888.512133833279
+    },
+    {
+      "name": "Gweru Urban",
+      "fraction_of_adm2_in_province": 1.0000000000000007,
+      "overlap_km2": 164.1556513913278
+    },
+    {
+      "name": "Hurungwe",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Insiza",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Kariba",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Kwekwe",
+      "fraction_of_adm2_in_province": 1.0000000000000038,
+      "overlap_km2": 8747.819422337252
+    },
+    {
+      "name": "Kwekwe Urban",
+      "fraction_of_adm2_in_province": 1.0000000000000007,
+      "overlap_km2": 86.48865456100668
+    },
+    {
+      "name": "Lupane",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Makonde",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Masvingo",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Mberengwa",
+      "fraction_of_adm2_in_province": 0.999999999999997,
+      "overlap_km2": 5066.466870848763
+    },
+    {
+      "name": "Mhondoro-Ngezi",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Mwenezi",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Nkayi",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Redcliff",
+      "fraction_of_adm2_in_province": 0.9999999999999999,
+      "overlap_km2": 112.76423279489505
+    },
+    {
+      "name": "Sanyati",
+      "fraction_of_adm2_in_province": 0.0,
+      "overlap_km2": 0.0
+    },
+    {
+      "name": "Shurugwi",
+      "fraction_of_adm2_in_province": 0.9999999999999988,
+      "overlap_km2": 3464.4408508156107
+    },
+    {
+      "name": "Shurugwi Town",
+      "fraction_of_adm2_in_province": 1.0000000000000007,
+      "overlap_km2": 133.72748694327493
+    },
+    {
+      "name": "Zvishavane",
+      "fraction_of_adm2_in_province": 1.0000000000000022,
+      "overlap_km2": 2475.5201671813215
+    },
+    {
+      "name": "Zvishavane Urban",
+      "fraction_of_adm2_in_province": 1.0000000000000027,
+      "overlap_km2": 62.37726036897277
+    }
+  ],
+  "province_area_km2": 49362.659671929374,
+  "province_bounds": [
+    27.99749920562118,
+    -21.043426477686182,
+    30.870543744154475,
+    -17.117070181688234
+  ],
+  "unassigned_gap_km2": 0.0,
+  "overlapping_adm2_area_km2": 2.44140625e-10,
+  "survey_coordinates_used": false,
+  "subset_sha256": "072efa8bf3475b2c313713c7b85f7143e806d5a33fa1fe4093b53dcaeb143413"
+}

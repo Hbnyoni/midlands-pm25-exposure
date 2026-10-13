@@ -1,0 +1,11 @@
+endpoint,lag_days,studies,increment_ug_m3,rr,ci95_lower,ci95_upper,source_GRADE,source,doi,table
+asthma_ED,0,18,10,1.012,1.001,1.023,Moderate,Agache et al. 2024,10.1111/all.16041,2
+asthma_ED,1,15,10,1.013,1.004,1.022,Moderate,Agache et al. 2024,10.1111/all.16041,2
+asthma_ED,2,14,10,1.014,1.003,1.025,Moderate,Agache et al. 2024,10.1111/all.16041,2
+asthma_ED,3,14,10,1.023,1.007,1.039,Moderate,Agache et al. 2024,10.1111/all.16041,2
+asthma_ED,4,7,10,1.016,0.996,1.037,Low,Agache et al. 2024,10.1111/all.16041,2
+asthma_admissions,0,30,10,1.007,0.992,1.023,Low,Agache et al. 2024,10.1111/all.16041,2
+asthma_admissions,1,31,10,1.006,1.0,1.012,Low,Agache et al. 2024,10.1111/all.16041,2
+asthma_admissions,2,31,10,1.011,0.997,1.025,Low,Agache et al. 2024,10.1111/all.16041,2
+asthma_admissions,3,25,10,1.003,1.0,1.006,Moderate,Agache et al. 2024,10.1111/all.16041,2
+asthma_admissions,4,19,10,1.002,0.997,1.007,Low,Agache et al. 2024,10.1111/all.16041,2

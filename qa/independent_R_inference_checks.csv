@@ -1,0 +1,97 @@
+"check","values","passed","maximum_difference"
+"annual concentrations GHAP 2017",8,TRUE,1.77635683940025e-15
+"annual ranks GHAP 2017",8,TRUE,0
+"annual concentrations GHAP 2018",8,TRUE,1.77635683940025e-15
+"annual ranks GHAP 2018",8,TRUE,0
+"annual concentrations GHAP 2019",8,TRUE,1.77635683940025e-15
+"annual ranks GHAP 2019",8,TRUE,0
+"annual concentrations GHAP 2020",8,TRUE,1.77635683940025e-15
+"annual ranks GHAP 2020",8,TRUE,0
+"annual concentrations GHAP 2021",8,TRUE,1.77635683940025e-15
+"annual ranks GHAP 2021",8,TRUE,0
+"annual concentrations GHAP 2022",8,TRUE,1.77635683940025e-15
+"annual ranks GHAP 2022",8,TRUE,0
+"annual concentrations ACAG 2017",8,TRUE,1.77635683940025e-15
+"annual ranks ACAG 2017",8,TRUE,0
+"annual concentrations ACAG 2018",8,TRUE,1.77635683940025e-15
+"annual ranks ACAG 2018",8,TRUE,0
+"annual concentrations ACAG 2019",8,TRUE,1.77635683940025e-15
+"annual ranks ACAG 2019",8,TRUE,0
+"annual concentrations ACAG 2020",8,TRUE,1.77635683940025e-15
+"annual ranks ACAG 2020",8,TRUE,0
+"annual concentrations ACAG 2021",8,TRUE,1.77635683940025e-15
+"annual ranks ACAG 2021",8,TRUE,0
+"annual concentrations ACAG 2022",8,TRUE,1.77635683940025e-15
+"annual ranks ACAG 2022",8,TRUE,0
+"Spearman 2017",1,TRUE,1.11022302462516e-16
+"Spearman 2018",1,TRUE,1.11022302462516e-16
+"Spearman 2019",1,TRUE,1.11022302462516e-16
+"Spearman 2020",1,TRUE,5.55111512312578e-17
+"Spearman 2021",1,TRUE,0
+"Spearman 2022",1,TRUE,0
+"acute p95 2017 1",8,TRUE,3.5527136788005e-15
+"acute ranks 2017 1",8,TRUE,0
+"acute p95 2017 3",8,TRUE,1.77635683940025e-15
+"acute ranks 2017 3",8,TRUE,0
+"acute p95 2017 7",8,TRUE,1.77635683940025e-15
+"acute ranks 2017 7",8,TRUE,0
+"acute p95 2018 1",8,TRUE,1.77635683940025e-15
+"acute ranks 2018 1",8,TRUE,0
+"acute p95 2018 3",8,TRUE,1.77635683940025e-15
+"acute ranks 2018 3",8,TRUE,0
+"acute p95 2018 7",8,TRUE,0
+"acute ranks 2018 7",8,TRUE,0
+"acute p95 2019 1",8,TRUE,3.5527136788005e-15
+"acute ranks 2019 1",8,TRUE,0
+"acute p95 2019 3",8,TRUE,1.77635683940025e-15
+"acute ranks 2019 3",8,TRUE,0
+"acute p95 2019 7",8,TRUE,8.88178419700125e-16
+"acute ranks 2019 7",8,TRUE,0
+"acute p95 2020 1",8,TRUE,8.88178419700125e-16
+"acute ranks 2020 1",8,TRUE,0
+"acute p95 2020 3",8,TRUE,1.77635683940025e-15
+"acute ranks 2020 3",8,TRUE,0
+"acute p95 2020 7",8,TRUE,8.88178419700125e-16
+"acute ranks 2020 7",8,TRUE,0
+"acute p95 2021 1",8,TRUE,8.88178419700125e-16
+"acute ranks 2021 1",8,TRUE,0
+"acute p95 2021 3",8,TRUE,8.88178419700125e-16
+"acute ranks 2021 3",8,TRUE,0
+"acute p95 2021 7",8,TRUE,4.44089209850063e-16
+"acute ranks 2021 7",8,TRUE,0
+"acute p95 2022 1",8,TRUE,1.77635683940025e-15
+"acute ranks 2022 1",8,TRUE,0
+"acute p95 2022 3",8,TRUE,1.77635683940025e-15
+"acute ranks 2022 3",8,TRUE,0
+"acute p95 2022 7",8,TRUE,1.77635683940025e-15
+"acute ranks 2022 7",8,TRUE,0
+"six-year GHAP ranks",8,TRUE,0
+"six-year ACAG ranks",8,TRUE,0
+"annual min",8,TRUE,0
+"annual max",8,TRUE,0
+"annual median",8,TRUE,0
+"acute min",8,TRUE,0
+"acute max",8,TRUE,0
+"acute median",8,TRUE,0
+"Agache ED Table 2 original ratios",5,TRUE,0
+"Agache admissions original lower limits",5,TRUE,0
+"matched p95 asthma_ED Agache 2024",54,TRUE,3.5527136788005e-15
+"asthma_ED Agache 2024 rr_estimate",54,TRUE,0
+"asthma_ED Agache 2024 ci95_lower",54,TRUE,0
+"asthma_ED Agache 2024 ci95_upper",54,TRUE,0
+"matched p95 asthma_ED Lin 2024",54,TRUE,3.5527136788005e-15
+"asthma_ED Lin 2024 rr_estimate",54,TRUE,2.22044604925031e-16
+"asthma_ED Lin 2024 ci95_lower",54,TRUE,2.22044604925031e-16
+"asthma_ED Lin 2024 ci95_upper",54,TRUE,0
+"matched p95 asthma_admissions Agache 2024",54,TRUE,3.5527136788005e-15
+"asthma_admissions Agache 2024 rr_estimate",54,TRUE,0
+"asthma_admissions Agache 2024 ci95_lower",54,TRUE,0
+"asthma_admissions Agache 2024 ci95_upper",54,TRUE,0
+"matched p95 asthma_admissions Lin 2024",54,TRUE,3.5527136788005e-15
+"asthma_admissions Lin 2024 rr_estimate",54,TRUE,2.22044604925031e-16
+"asthma_admissions Lin 2024 ci95_lower",54,TRUE,0
+"asthma_admissions Lin 2024 ci95_upper",54,TRUE,0
+"monthly population-days",108,TRUE,2.98023223876953e-08
+"monthly denominators",108,TRUE,5.96046447753906e-08
+"monthly exposure fraction",108,TRUE,1.11022302462516e-16
+"monthly distribution of population-days",108,TRUE,5.55111512312578e-17

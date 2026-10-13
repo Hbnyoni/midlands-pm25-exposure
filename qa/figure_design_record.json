@@ -1,0 +1,28 @@
+{
+  "main_figures": 8,
+  "supplementary_figures": 5,
+  "main_health_display": "Point estimates with 95% coefficient intervals; long-term 80% prediction intervals also shown",
+  "panel_titles": "Lowercase letters only",
+  "embedded_captions": false,
+  "map_furniture": "Outside map frames",
+  "dpi": 600,
+  "width_mm": 180,
+  "tiff_colour_mode": "RGB",
+  "statistical_engine": "R ggplot2 and patchwork",
+  "cartographic_engine": "Python Matplotlib",
+  "editable_native_R_plots": 8,
+  "formats": [
+    "PNG",
+    "TIFF",
+    "PDF",
+    "SVG"
+  ],
+  "interpolation": "None",
+  "additions": [
+    "Matched evidence sensitivity",
+    "Six-year product rank comparison",
+    "All-year and all-window rank matrix",
+    "Monthly exposed population-time",
+    "Population-weighted native-grid exposure distributions for 108 area-product-year combinations"
+  ]
+}

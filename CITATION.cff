@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "If you use this code or data, please cite the archived release and the associated article."
 title: "Midlands PM2.5 population exposure and health risk profiles: code and derived data"
 version: 1.0.0
+doi: 10.5281/zenodo.23342801
+date-released: 2026-10-13
 license: MIT
 repository-code: "https://github.com/Hbnyoni/midlands-pm25-exposure"
 type: software

@@ -1,5 +1,7 @@
 # Midlands PM2.5 population exposure and health risk profiles
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23342801.svg)](https://doi.org/10.5281/zenodo.23342801)
+
 Code and derived data for *Population exposure and health risk profiles for fine particulate matter in Midlands Province, Zimbabwe* (Nyoni, Moyo, Chinwadzimba, Sibanda and Tigere; manuscript under review).
 
 The analysis combines modelled daily and annual PM2.5 (GHAP, with ACAG as a comparison product), year-matched WorldPop residential population and geoBoundaries district boundaries for 2017 to 2022. It reports population-weighted exposure, WHO guideline comparisons, cumulative and persistent exposure across eight district reporting areas, and conditional health contrasts transferred from published concentration–response functions. No survey, clinical or individual-level data are used.
@@ -66,7 +68,9 @@ Code is released under the MIT licence (`LICENSE`). Derived data and figures cre
 
 ## Citation
 
-Please cite this repository using the archived release DOI (see `CITATION.cff`) and the associated article.
+Please cite the archived release and the associated article:
+
+Nyoni, H. B., Moyo, P. L., Chinwadzimba, Z., Sibanda, R., & Tigere, D. (2026). *Midlands PM2.5 population exposure and health risk profiles: code and derived data* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23342801
 
 ## Contact
 

@@ -1,19 +1,73 @@
 {
-  "title": "Midlands PM2.5 population exposure and health risk profiles: code and derived data",
+  "title": "Midlands PM2.5 exposure and its sources: code and derived data",
   "upload_type": "software",
-  "description": "Python and R code, source manifests, derived tables, verification records and figures for a retrospective assessment of modelled PM2.5 population exposure and conditional health risk profiles across Midlands Province, Zimbabwe, 2017 to 2022. Inputs are public GHAP and ACAG PM2.5, WorldPop population and geoBoundaries boundaries; large raster inputs are reacquired with the supplied code and verified by SHA-256 hashes.",
+  "description": "Python and R code, source manifests, derived tables, verification records and figures for an assessment of modelled PM2.5 exposure across Midlands Province, Zimbabwe, 2017 to 2022, and (from version 1.1.0) a source-attributed exposure model that splits daily exposure into fire, local industrial and urban, and background components and attributes population-days above the WHO 24 hour guideline to each source. Inputs are public GHAP and ACAG PM2.5, WorldPop population, geoBoundaries boundaries, MODIS active fires, ERA5-Land and Sentinel-5P TROPOMI; large raster inputs are reacquired with the supplied code.",
   "license": "MIT",
   "creators": [
-    {"name": "Nyoni, Handsome Bongani", "affiliation": "Midlands State University; University of Cape Town"},
-    {"name": "Moyo, Perez Livias", "affiliation": "National University of Science and Technology, Zimbabwe"},
-    {"name": "Chinwadzimba, Zororo", "affiliation": "Centre for Sexual Health and HIV AIDS Research (CeSHHAR)"},
-    {"name": "Sibanda, Rutendo", "affiliation": "Centre for Sexual Health and HIV AIDS Research (CeSHHAR)"},
-    {"name": "Tigere, Daniel", "affiliation": "Shurugwi District Medical Office"}
+    {
+      "name": "Nyoni, Handsome Bongani",
+      "affiliation": "Midlands State University; University of Cape Town"
+    },
+    {
+      "name": "Moyo, Perez Livias",
+      "affiliation": "National University of Science and Technology, Zimbabwe"
+    },
+    {
+      "name": "Chinwadzimba, Zororo",
+      "affiliation": "Centre for Sexual Health and HIV AIDS Research (CeSHHAR)"
+    },
+    {
+      "name": "Sibanda, Rutendo",
+      "affiliation": "Centre for Sexual Health and HIV AIDS Research (CeSHHAR)"
+    },
+    {
+      "name": "Tigere, Daniel",
+      "affiliation": "Shurugwi District Medical Office"
+    }
   ],
-  "keywords": ["PM2.5", "population exposure", "WHO air quality guidelines", "remote sensing", "environmental health", "Zimbabwe"],
+  "keywords": [
+    "PM2.5",
+    "population exposure",
+    "WHO air quality guidelines",
+    "remote sensing",
+    "environmental health",
+    "Zimbabwe",
+    "source attribution",
+    "landscape fires",
+    "TROPOMI"
+  ],
   "related_identifiers": [
-    {"identifier": "10.1038/s41467-023-43862-3", "relation": "references", "scheme": "doi"},
-    {"identifier": "10.1021/acsestair.3c00054", "relation": "references", "scheme": "doi"}
+    {
+      "identifier": "10.1038/s41467-023-43862-3",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1021/acsestair.3c00054",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.rse.2016.02.054",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5194/essd-13-4349-2021",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.rse.2011.09.027",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1021/acs.est.1c05309",
+      "relation": "references",
+      "scheme": "doi"
+    }
   ],
-  "access_right": "open"
+  "access_right": "open",
+  "version": "1.1.0"
 }

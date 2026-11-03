@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the archived release and the associated article."
-title: "Midlands PM2.5 population exposure and health risk profiles: code and derived data"
-version: 1.0.0
-doi: 10.5281/zenodo.23342801
-date-released: 2026-10-13
+title: "Midlands PM2.5 exposure and its sources: code and derived data"
+version: 1.1.0
+doi: 10.5281/zenodo.23342800
+date-released: 2026-11-03
 license: MIT
 repository-code: "https://github.com/Hbnyoni/midlands-pm25-exposure"
 type: software
@@ -29,4 +29,7 @@ keywords:
   - WHO air quality guidelines
   - remote sensing
   - environmental health
+  - source attribution
+  - landscape fires
+  - TROPOMI
   - Zimbabwe
